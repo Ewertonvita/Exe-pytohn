@@ -1,0 +1,8 @@
+print (10*"/", "converso de moedas",10*"/")
+print (40*"$")
+print (40*"=")
+d = float (input("Digite um valor em Dolar US$ para Real R$ = "))
+print ("Dolar para real = {:.1f} Reais".format(d*5.31))
+r = float (input("Digite um valor em Reais para Dolares = "))
+print ("Reais para Dolares = {:.1f} Dolares". format(r/5.31))
+print ("================fim=================")

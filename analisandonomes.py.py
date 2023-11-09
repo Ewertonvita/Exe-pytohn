@@ -1,0 +1,5 @@
+print (" ****análisando nomes primeiro e ultimo nome*****")
+n= str (input(" digite seu nome com o sobrenome = ")).strip().upper()
+nome = n.split()
+cont = len(nome)
+print (" seu primeiro nome é = {} e o ultimo é = {}". format(nome [0],nome[cont-1]))

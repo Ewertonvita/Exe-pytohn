@@ -1,0 +1,6 @@
+print ("================= calculando aumento salárial dos funcionários =============")
+nome = input (" Informe o nome do Funcionário para reajuste salárial ")
+salario = float (input (" digite o valor do salario atual do funcionário R$ ="))
+reajuste = float (input (" Informe o valor do aumento %  "))
+nsalario = salario + (salario / 100 * reajuste )
+print ("  O funcionário ",nome, "  obteve um aumento de {}% e atualmente tem um salário de R$ {:.2F} ".format( reajuste ,nsalario ))

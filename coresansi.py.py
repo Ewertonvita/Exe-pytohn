@@ -1,0 +1,5 @@
+print ("*****codgo ANSI*****")
+print ("\033[1;30;42mola mundo\033[m")
+print ("\033[0;33;41molá mundo\033[m")
+print ('\033[4;30;41molá mundo\033[m')
+print ("\033[7;30mola mundo\033[m")
